@@ -14,7 +14,7 @@ import java.util.TimeZone;
 // @EnableMongoRepositories
 
 // auditorAware icin
-//@EnableJpaAuditing(auditorAwareRef = "auditorAwareMethod")
+@EnableJpaAuditing(auditorAwareRef = "auditorAwareMethod")
 
 // Aspect aktif etmek icin
 // @EnableAspectJAutoProxy(proxyTargetClass = true)
