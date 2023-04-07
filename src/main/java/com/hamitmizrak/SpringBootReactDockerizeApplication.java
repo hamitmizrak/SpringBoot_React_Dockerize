@@ -1,19 +1,20 @@
 package com.hamitmizrak;
 
-import jakarta.annotation.PostConstruct;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 
+import javax.annotation.PostConstruct;
 import java.util.TimeZone;
 
 // Mongo aktif etmek ici
 // @EnableMongoRepositories
 
 // auditorAware icin
-@EnableJpaAuditing(auditorAwareRef = "auditorAwareMethod")
+//@EnableJpaAuditing(auditorAwareRef = "auditorAwareMethod")
 
 // Aspect aktif etmek icin
 // @EnableAspectJAutoProxy(proxyTargetClass = true)
